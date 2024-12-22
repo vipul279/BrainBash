@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  text-align: left !important;
+}
+
+@layer base {
+  #root {
+    @apply !m-0 !p-0 !w-full !h-full !text-left !max-w-full;
+  }
+
+  * {
+    @apply m-0 p-0 box-border;
+  }
+}
+
+@layer components{
+  .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 250px;
+    border: 1px solid gray;
+    background-color: white;
+    padding: 20px !important;
+    border-radius: 50px;
+
+  }
+}
+
