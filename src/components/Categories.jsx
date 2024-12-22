@@ -29,7 +29,7 @@ const Categories = () => {
   <div className="relative mt-8">
     {/* Mobile: Second Image */}
     <div className="sm:hidden">
-      <div className="bg-cover bg-no-repeat bg-[url('https://another-image-url.jpg')] h-[50vh] w-full"></div>
+      <div className="bg-cover bg-no-repeat bg-[url('https://another-image-url.jpg')]  w-full"></div>
     </div>
 
     {/* Cards Section */}
